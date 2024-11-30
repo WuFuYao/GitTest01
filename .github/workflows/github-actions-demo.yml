@@ -42,3 +42,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+  Explore-GitHub-Actions5:
+    needs: Explore-GitHub-Actions
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Explore-GitHub-Actions5."
